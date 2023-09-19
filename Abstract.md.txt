@@ -1,0 +1,26 @@
+TEAM NAME : ELECTROBUZZ
+
+TEAM MEMBERS: Yash Bhavnani, Vansh Panchal, Poorva Gaikar, Manan Shanghvi, Kshitij Patil,Dhruv Vanjari.
+
+Title: Smart Street Lighting System with LDR, Arduino Uno, IR Sensors, and LEDs
+
+Abstract:
+
+The Smart Street Lighting System presented in this project aims at delivering  advanced technology to enhance the efficiency and sustainability of urban street lighting. By integrating Light Dependent Resistors (LDRs), Arduino Uno microcontrollers, Infrared (IR) sensors, and Light Emitting Diodes (LEDs), this innovative solution responds intelligently to environmental conditions, ensuring optimal lighting levels while conserving energy.
+
+Traditional street lighting systems often operate at a fixed brightness level throughout the night, regardless of actual lighting requirements. In contrast, our Smart Street Lighting System utilizes LDRs to continuously monitor ambient light levels. Arduino Uno microcontrollers process the data from the LDRs and dynamically adjust the brightness of the streetlights, here we have kept an initial 15% efficiency glow,which changes according to object detection . This model not only ensures that streets are adequately illuminated for safety but also minimizes energy consumption during periods of sufficient natural light.
+
+Furthermore, IR sensors are strategically positioned to detect the presence of pedestrians, cyclists, or vehicles on the streets. When motion is detected, the system activates or prepares the LEDs to glow and provide enhanced illumination around 90% in the vicinity of the detected movement. This not only improves safety but also contributes to energy savings by avoiding unnecessary full-scale lighting when streets are unoccupied.
+
+This project pitches or rather gives  a cost-effective and environmentally friendly solution for urban street lighting, demonstrating the potential for significant energy savings and reduced light pollution. The integration of LDRs, Arduino Uno, IR sensors, and LEDs offers a versatile and scalable platform for modernizing urban infrastructure and maintaining sustainability.
+
+
+To implement further developments in the smart street lighting project, we plan to focus on three key areas:
+
+Energy Efficiency: We will integrate advanced motion sensors and ambient light detectors to dynamically adjust the brightness of streetlights based on real-time traffic flow and environmental conditions. This will not only reduce energy consumption but also enhance safety by providing brighter illumination when needed.
+
+Data Analytics: By collecting and analyzing data from the smart streetlights, we can gain valuable insights into traffic patterns, pedestrian movement, and more. This data will enable us to optimize traffic management and plan urban infrastructure improvements efficiently.
+
+IoT Integration: We'll expand the project to include other IoT devices like environmental sensors, surveillance cameras, and Wi-Fi hotspots. This interconnected ecosystem will enhance city services, from air quality monitoring to enhanced security and connectivity for residents.
+
+These developments will make our smart street lighting project more sustainable, data-driven, and responsive to the needs of our community.
