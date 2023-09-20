@@ -1,19 +1,63 @@
 # SIH-23_Automated_Public_Lighting
 The Smart Street Lighting System presented in this project aims at delivering  advanced technology to enhance the efficiency and sustainability of urban street lighting. By integrating Light Dependent Resistors (LDRs), Arduino Uno microcontrollers, Infrared (IR) sensors, and Light Emitting Diodes (LEDs), this innovative solution responds intelligently to environmental conditions, ensuring optimal lighting levels while conserving energy.
 
-Traditional street lighting systems often operate at a fixed brightness level throughout the night, regardless of actual lighting requirements. In contrast, our Smart Street Lighting System utilizes LDRs to continuously monitor ambient light levels. Arduino Uno microcontrollers process the data from the LDRs and dynamically adjust the brightness of the streetlights, here we have kept an initial 15% efficiency glow,which changes according to object detection . This model not only ensures that streets are adequately illuminated for safety but also minimizes energy consumption during periods of sufficient natural light.
 
-Furthermore, IR sensors are strategically positioned to detect the presence of pedestrians, cyclists, or vehicles on the streets. When motion is detected, the system activates or prepares the LEDs to glow and provide enhanced illumination around 90% in the vicinity of the detected movement. This not only improves safety but also contributes to energy savings by avoiding unnecessary full-scale lighting when streets are unoccupied.
+## Video Demonstration
+https://github.com/Kshitijpatil16/SIH-23_Automated_Public_Lighting/assets/69208749/dac6e47f-cfe8-48ce-b008-74ca599e9a04
 
-This project pitches or rather gives  a cost-effective and environmentally friendly solution for urban street lighting, demonstrating the potential for significant energy savings and reduced light pollution. The integration of LDRs, Arduino Uno, IR sensors, and LEDs offers a versatile and scalable platform for modernizing urban infrastructure and maintaining sustainability.
+The Smart Street Lighting System represents a significant departure from traditional fixed-brightness streetlights. It employs Light Dependent Resistors (LDRs) and Arduino Uno microcontrollers to continuously monitor ambient light, dynamically adjusting brightness, initially set at 15% efficiency. This adaptive approach enhances safety and minimizes energy consumption during well-lit periods.
+
+Strategically positioned Infrared (IR) sensors detect movement, activating LEDs to provide intense illumination around 90% in response. This enhances safety and conserves energy by avoiding unnecessary full-scale lighting when streets are empty.
+
+This project offers a cost-effective, eco-friendly urban lighting solution, showcasing substantial energy savings and reduced light pollution. Future enhancements will focus on energy efficiency, data analytics for traffic optimization, and IoT integration for improved city services, ultimately making urban lighting smarter, data-driven, and responsive to community needs.
+
+## Technicals
+
+### Components
+* LDR Sensor
+* IR Sensor
+* Bluetooth Module (HC-05)
+* Arduino Uno R3
+* MIT App Inventor.​
+
+### Dashboard
+
+https://github.com/Kshitijpatil16/SIH-23_Automated_Public_Lighting/assets/69208749/fa919ec4-5e91-4e83-991a-8fa2097dfcd9
+
+As part of our initiative, we utilized Node-RED, an accessible yet potent tool, to develop a unique dashboard. This dashboard serves as a centralized hub for displaying vital data, particularly concerning our power consumption. People can view this information in real-time, aiding them in making informed decisions and optimizing resource utilization. This not only enhances data clarity but also enhances overall efficiency. It's akin to having an intelligent assistant for decision-making and effective resource management, contributing to our initiatives.
 
 
-To implement further developments in the smart street lighting project, we plan to focus on three key areas:
+## Future Development Focus:
 
-Energy Efficiency: We will integrate advanced motion sensors and ambient light detectors to dynamically adjust the brightness of streetlights based on real-time traffic flow and environmental conditions. This will not only reduce energy consumption but also enhance safety by providing brighter illumination when needed.
+* **Energy Efficiency:** We'll integrate advanced sensors to dynamically adjust streetlight brightness in response to traffic and environmental conditions, improving energy efficiency and safety
 
-Data Analytics: By collecting and analyzing data from the smart streetlights, we can gain valuable insights into traffic patterns, pedestrian movement, and more. This data will enable us to optimize traffic management and plan urban infrastructure improvements efficiently.
+* **Data Analytics:** Data collection and analysis from smart streetlights provide insights into traffic patterns and pedestrian activity. This informs efficient traffic management and urban infrastructure planning
 
-IoT Integration: We'll expand the project to include other IoT devices like environmental sensors, surveillance cameras, and Wi-Fi hotspots. This interconnected ecosystem will enhance city services, from air quality monitoring to enhanced security and connectivity for residents.
+* **IoT Integration:** We'll extend the project with additional IoT devices, including environmental sensors, cameras, and Wi-Fi. This interconnected system will elevate city services, spanning air quality monitoring, security, and enhanced connectivity for residents
 
 These developments will make our smart street lighting project more sustainable, data-driven, and responsive to the needs of our community.
+
+## Team Details and Problem Statement
+**Ministry/Organization Name/Student Innovation:** Ministry of Power​
+
+**PS Code:** SIH1300​​
+
+**Problem Statement Title:** Automated Public Lighting​
+
+**Team Name:** Electrobuzz​
+
+**Team Leader Name:** Yash Bhavnani​
+
+**Institute Code (AISHE):** 3012​
+
+**Institute Name:** Veermata Jijabai Technological Institute​
+
+**Theme Name:** Hardware
+
+**Members:**
+  * Yash Bhavnani (Team Leader)
+  * Poorva Gaikar
+  * Kshitij Patil
+  * Manan Shanghvi
+  * Vansh Panchal
+  * Dhruv Vanjari
